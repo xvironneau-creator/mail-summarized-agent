@@ -10,7 +10,6 @@ APP_NAME = "gmail_summarizer"
 USER_ID = "owner"
 SESSION_ID = "session1"
 
-# Agent : résumé + enrichissement web
 summarizer_agent = Agent(
     name="summarizer_agent",
     model=GEMINI_MODEL,
